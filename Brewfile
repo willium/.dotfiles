@@ -1,5 +1,24 @@
 cask_args appdir: '/Applications'
 
+brew 'bash'
+tap 'homebrew/versions'
+brew 'bash-completion2'
+brew 'git'
+brew 'git-lfs'
+brew 'wget'
+
+# Install more recent versions of some OS X tools.
+tap 'homebrew/dupes/'
+brew 'grep'
+brew 'openssh'
+brew 'screen'
+
+# Install font tools.
+brew tap bramstein/webfonttools
+brew install sfnt2woff
+brew install sfnt2woff-zopfli
+brew install woff2
+
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
 

@@ -33,6 +33,8 @@ rm -rf /Library/Caches/Homebrew/*
 #----------------------------------------------------------------------------------------#
 # Terminal Emulator
 #----------------------------------------------------------------------------------------#
+brew install vim --override-system-vi
+
 # Install the Solarized Dark theme for iTerm
 open "${HOME}/init/Solarized Dark.itermcolors"
 
@@ -54,6 +56,9 @@ defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 # Programming
 #----------------------------------------------------------------------------------------#
  
+# PHP
+#----------------------------------------------------------------------------------------#
+brew install homebrew/php/php56 --with-gmp
 
 # Python
 #----------------------------------------------------------------------------------------#

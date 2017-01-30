@@ -13,6 +13,11 @@ brew 'grep'
 brew 'openssh'
 brew 'screen'
 
+# Install some other useful utilities like `sponge`.
+brew 'moreutils'
+# Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
+brew 'findutils'
+
 # Install font tools.
 tap 'bramstein/webfonttools'
 brew 'sfnt2woff'

@@ -41,6 +41,7 @@ brew 'tree'
 brew 'youtube-dl'
 brew 'z'
 
+tap 'thoughtbot/formulae'
 brew 'rcm'
 
 tap 'caskroom/cask'
@@ -73,6 +74,7 @@ cask 'cscreen'
 cask 'Caskroom/versions/alfred2'
 cask 'dashlane'
 
+cask 'dropbox'
 cask 'google-drive'
 
 cask 'adobe-creative-cloud' # installer dl

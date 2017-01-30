@@ -38,6 +38,7 @@ brew 'postgresql'
 brew 'sqlite'
 brew 'tmux'
 brew 'tree'
+brew 'doxygen'
 brew 'youtube-dl'
 brew 'z'
 

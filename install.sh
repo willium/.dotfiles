@@ -686,6 +686,4 @@ done
 cscreen -v
 
 # set monitors screen sizes
-# cscreen -i <DisplayID> -d <depth> -x <Width> -y <Height>,
-cscreen -i 4280640 -d 32 -x 2048 -y 1280
-cscreen -i 2b101f0d -d 32 -x 3200 -y 1800
+printf "cscreen -i <DisplayID> -d <depth> -x <Width> -y <Height>"

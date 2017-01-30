@@ -9,7 +9,7 @@ cask 'firefox'
 cask 'java' unless system '/usr/libexec/java_home --failfast'
 
 cask 'iterm2'
-cask 'vscode'
+cask 'visual-studio-code'
 
 cask 'cscreen'
 cask 'logitech-options'

@@ -433,7 +433,6 @@ find "${HOME}/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -dele
 sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app" "/Applications/Simulator.app"
 sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator (Watch).app" "/Applications/Simulator (Watch).app"
 
-
 # Add a spacer to the left side of the Dock (where the applications are)
 #defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}'
 # Add a spacer to the right side of the Dock (where the Trash is)
@@ -680,3 +679,14 @@ for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
 	"Transmission" "Tweetbot" "Twitter" "iCal"; do
 	killall "${app}" &> /dev/null
 done
+
+#----------------------------------------------------------------------------------------#
+# Screen Size
+#----------------------------------------------------------------------------------------#
+# list all screen sizes
+cscreen -v
+
+# set monitors screen sizes
+# cscreen -i <DisplayID> -d <depth> -x <Width> -y <Height>,
+cscreen -i 4280640 -d 32 -x 2560 -y 1600
+cscreen -i 2b101f0d -d 32 -x 3840 -y 2160

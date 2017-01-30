@@ -11,6 +11,7 @@ cask 'java' unless system '/usr/libexec/java_home --failfast'
 cask 'iterm2'
 cask 'vscode'
 
+cask 'cscreen'
 cask 'logitech-options'
 cask 'alfred2'
 cask 'dashlane'

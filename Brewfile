@@ -70,7 +70,6 @@ cask 'iterm2'
 cask 'visual-studio-code'
 
 cask 'cscreen'
-cask 'logitech-options'
 cask 'Caskroom/versions/alfred2'
 cask 'dashlane'
 

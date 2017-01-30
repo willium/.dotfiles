@@ -13,10 +13,11 @@ cask 'visual-studio-code'
 
 cask 'cscreen'
 cask 'logitech-options'
-cask 'alfred2'
+cask 'Caskroom/versions/alfred2'
 cask 'dashlane'
 
 cask 'google-drive'
 
 cask 'adobe-creative-cloud' # installer dl
-cask 'twitter'
+
+mas install 409789998 # Twitter

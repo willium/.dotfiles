@@ -14,10 +14,10 @@ brew 'openssh'
 brew 'screen'
 
 # Install font tools.
-brew tap bramstein/webfonttools
-brew install sfnt2woff
-brew install sfnt2woff-zopfli
-brew install woff2
+tap 'bramstein/webfonttools'
+brew 'sfnt2woff'
+brew 'sfnt2woff-zopfli'
+brew 'woff2'
 
 tap 'caskroom/cask'
 tap 'caskroom/fonts'

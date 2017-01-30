@@ -20,4 +20,10 @@ cask 'google-drive'
 
 cask 'adobe-creative-cloud' # installer dl
 
-mas install 409789998 # Twitter
+mas 'Twitter', id: 409789998
+mas 'Slack', id: 803453959
+mas 'TermHere', id: 1114363220
+mas 'Sip', id: 507257563
+mas 'Airmail 3', id: 918858936
+mas 'The Unarchiver', id: 425424353
+

@@ -1,0 +1,11 @@
+export PATH="/usr/local/sbin:$PATH"
+
+# Add `~/bin` to the `$PATH`
+export PATH="$HOME/bin:$PATH";
+
+# Add usr/local/bin
+export PATH="/usr/local/git/bin:/usr/local/bin:$PATH";
+
+# Go
+export GOPATH="$HOME/developer/Go/"
+export PATH=$PATH:$GOPATH/bin

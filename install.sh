@@ -687,3 +687,8 @@ cscreen -v
 
 # set monitors screen sizes
 printf "cscreen -i <DisplayID> -d <depth> -x <Width> -y <Height>"
+
+#----------------------------------------------------------------------------------------#
+# Move dotfiles
+#----------------------------------------------------------------------------------------#
+cd ~/ && rcup -d .dotfile -x Brewfile -x install.sh

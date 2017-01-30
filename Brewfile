@@ -41,6 +41,8 @@ brew 'tree'
 brew 'youtube-dl'
 brew 'z'
 
+brew 'rcm'
+
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
 

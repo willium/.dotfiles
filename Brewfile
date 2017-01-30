@@ -8,7 +8,7 @@ brew 'git-lfs'
 brew 'wget'
 
 # Install more recent versions of some OS X tools.
-tap 'homebrew/dupes/'
+tap 'homebrew/dupes'
 brew 'grep'
 brew 'openssh'
 brew 'screen'

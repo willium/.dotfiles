@@ -6,6 +6,7 @@ cask_args appdir: '/Applications'
 
 brew 'bash'
 tap 'homebrew/versions'
+tap 'Caskroom/versions'
 brew 'bash-completion2'
 brew 'git'
 brew 'git-lfs'
@@ -97,7 +98,7 @@ cask 'iterm2'
 cask 'visual-studio-code'
 
 cask 'cscreen'
-cask 'Caskroom/versions/alfred2'
+cask 'alfred2'
 cask 'dashlane'
 
 cask 'dropbox'
@@ -111,6 +112,9 @@ cask 'adobe-creative-cloud' # installer dl
 
 brew 'mas'
 mas 'Xcode', id: 497799835
+mas 'Pages', id: 409201541
+mas 'Keynote', id: 409183694
+mas 'Numbers', id: 409203825
 mas 'Twitter', id: 409789998
 mas 'Slack', id: 803453959
 mas 'TermHere', id: 1114363220

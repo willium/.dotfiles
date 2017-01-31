@@ -6,6 +6,12 @@ export PATH="$HOME/bin:$PATH";
 # Add usr/local/bin
 export PATH="/usr/local/git/bin:/usr/local/bin:$PATH";
 
+# Yarn
+export PATH="$PATH:`yarn global bin`"
+
 # Go
 export GOPATH="$HOME/developer/Go/"
 export PATH=$PATH:$GOPATH/bin
+
+# Ruby
+export PATH="$HOME/.rbenv/bin:$PATH"

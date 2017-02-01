@@ -262,6 +262,8 @@ alias tlc='tmux list-command'
 alias tat='tmux attach -t'
 alias trs='tmux rename-session -t'
 
+# Pyoth
+alias pip='pip3'
 
 # Killing
 alias tks='tmux kill-session -t'

@@ -57,6 +57,8 @@ xcode-select --install
 # Ruby
 #----------------------------------------------------------------------------------------#
 gem install bundler
+bundle install --system
+gem update --system
 
 # Python
 #----------------------------------------------------------------------------------------#
@@ -674,4 +676,4 @@ printf "cscreen -i <DisplayID> -d <depth> -x <Width> -y <Height>"
 #----------------------------------------------------------------------------------------#
 # Move dotfiles
 #----------------------------------------------------------------------------------------#
-cd ~/ && rcup -d .dotfile -x Brewfile -x install.sh
+cd ~/ && rcup -d .dotfile -x Brewfile -x Gemfile -x install.sh 

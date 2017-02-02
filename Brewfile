@@ -32,6 +32,9 @@ brew 'woff2'
 brew 'bash-completion'
 tap 'homebrew/completions'
 
+tap 'homebrew/science'
+brew 'r'
+
 brew 'colordiff'
 brew 'vim', args: ['override-system-vi']
 brew 'diff-so-fancy'
@@ -121,3 +124,5 @@ mas 'TermHere', id: 1114363220
 mas 'Sip', id: 507257563
 mas 'Airmail 3', id: 918858936
 mas 'The Unarchiver', id: 425424353
+
+

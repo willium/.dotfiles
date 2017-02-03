@@ -65,7 +65,6 @@ gem update --system
 
 # Node
 #----------------------------------------------------------------------------------------#
-
 npm install --depth -1 --quiet -g npm # Update npm.
 npm install --depth -1 --quiet -g npm-check gulp-cli trash-cli
 

@@ -4,6 +4,8 @@ cask_args appdir: '/Applications'
 # Brews
 #----------------------------------------------------------------------------------------#
 
+brew 'mas'
+
 brew 'bash'
 tap 'homebrew/versions'
 tap 'Caskroom/versions'
@@ -79,7 +81,6 @@ cask 'firefox'
 
 cask 'java' unless system '/usr/libexec/java_home --failfast'
 
-cask 'charles'
 cask 'mactex'
 cask 'cloudup'
 cask 'dropbox'
@@ -115,7 +116,6 @@ cask 'adobe-creative-cloud' # installer dl
 # Mac App Store
 #----------------------------------------------------------------------------------------#
 
-brew 'mas'
 mas 'Xcode', id: 497799835
 mas 'Pages', id: 409201541
 mas 'Keynote', id: 409183694

@@ -29,7 +29,6 @@ brew 'sfnt2woff'
 brew 'sfnt2woff-zopfli'
 brew 'woff2'
 
-brew 'bash-completion'
 tap 'homebrew/completions'
 
 tap 'homebrew/science'

@@ -75,5 +75,4 @@ mas 'Airmail 3', id: 918858936
 mas 'Twitter', id: 409789998
 mas 'Slack', id: 803453959
 mas 'The Unarchiver', id: 425424353
-
-
+mas 'Daisy Disk', id: 411643860

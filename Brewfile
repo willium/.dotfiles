@@ -58,8 +58,6 @@ cask 'vlc'
 
 cask 'xquartz'
 
-brew 'ant'
-
 cask 'iterm2'
 
 cask 'visual-studio-code'

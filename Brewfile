@@ -7,8 +7,6 @@ cask_args appdir: '/Applications'
 brew 'mas'
 
 brew 'bash'
-tap 'homebrew/versions'
-tap 'Caskroom/versions'
 brew 'bash-completion'
 brew 'git'
 brew 'git-lfs'

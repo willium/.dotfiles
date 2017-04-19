@@ -11,6 +11,11 @@ brew 'bash-completion'
 brew 'git'
 brew 'git-lfs'
 brew 'wget'
+brew 'pkg-config'
+brew 'cairo'
+brew 'libpng'
+brew 'jpeg'
+brew 'giflib'
 
 # Install more recent versions of some OS X tools.
 tap 'homebrew/dupes'

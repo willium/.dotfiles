@@ -1,17 +1,24 @@
-export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/sbin:$PATH";
 
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
+
+# add python bin
+export PATH="$HOME/Library/Python/3.6/bin:$PATH";
 
 # Add usr/local/bin
 export PATH="/usr/local/git/bin:/usr/local/bin:$PATH";
 
 # Yarn
-export PATH="$PATH:`yarn global bin`"
+export PATH="$PATH:`yarn global bin`";
 
 # Go
-export GOPATH="$HOME/developer/Go/"
-export PATH=$PATH:$GOPATH/bin
+export GOPATH="$HOME/developer/Go/";
+export PATH=$PATH:$GOPATH/bin;
 
 # Ruby
-export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH";
+
+# Latex
+export PATH="/Library/TeX/Distributions/Programs/texbin:$PATH";
+export PATH="/usr/local/opt/gettext/bin:$PATH"

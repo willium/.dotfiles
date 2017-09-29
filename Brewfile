@@ -50,7 +50,6 @@ cask 'firefox'
 cask 'java' unless system '/usr/libexec/java_home --failfast'
 cask 'eclipse-java'
 
-cask 'mactex'
 cask 'postgres'
 cask 'rstudio'
 cask 'sketch'
@@ -81,3 +80,4 @@ mas 'Twitter', id: 409789998
 mas 'Slack', id: 803453959
 mas 'The Unarchiver', id: 425424353
 mas 'Daisy Disk', id: 411643860
+mas 'iA Writer', id: 775737590

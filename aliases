@@ -4,7 +4,6 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
-alias -- -="cd -"
 
 # Shortcuts
 alias db="cd ~/Dropbox"
@@ -256,7 +255,7 @@ alias gexport='git archive --format zip --output'
 alias gdel='git branch -D'
 alias gmu='git fetch origin -v; git fetch upstream -v; git merge upstream/master'
 
-# Aliases
+# Tmux 
 alias tls='tmux list-session'
 alias tlw='tmux list-window'
 alias tsw='tmux switch -t '
@@ -264,8 +263,14 @@ alias tlc='tmux list-command'
 alias tat='tmux attach -t'
 alias trs='tmux rename-session -t'
 
-# Pyoth
+# SQL
+alias sqlite=sqlite3
+alias lite=sqlite3
+
+# Python
+alias python=python3
 alias pip='pip3'
+alias pe=pipenv
 
 # Killing
 alias tks='tmux kill-session -t'

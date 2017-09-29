@@ -109,7 +109,7 @@ big_arrow="\342\226\266"
 under_arrow="\342\206\263"
 hollow_arrow="\342\207\250"
 black_arrow="\342\236\241"
-main_arrow="➔"
+main_arrow="\360\237\241\262"
 
 # Set the terminal title and prompt.
 PS1="\[\033]0;\W\007\]"; # working directory base name

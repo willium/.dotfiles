@@ -255,7 +255,7 @@ alias gexport='git archive --format zip --output'
 alias gdel='git branch -D'
 alias gmu='git fetch origin -v; git fetch upstream -v; git merge upstream/master'
 
-# Tmux 
+# Tmux
 alias tls='tmux list-session'
 alias tlw='tmux list-window'
 alias tsw='tmux switch -t '
@@ -284,3 +284,7 @@ alias jn='jupyter notebook'
 # rm -rf
 alias rmrf='rm --preserve-root -rf'
 alias rmdf='rm --preserve-root -df'
+
+# Tarball
+alias tarball='tar -zcvf'
+alias untarball='tar -zxvf'

@@ -68,6 +68,8 @@ cask 'xquartz'
 
 cask 'iterm2'
 
+cask 'zoomus'
+
 cask 'visual-studio-code'
 
 # cask 'dropbox'

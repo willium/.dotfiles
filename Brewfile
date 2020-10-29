@@ -4,7 +4,7 @@ cask_args appdir: '/Applications'
 # Brews
 #----------------------------------------------------------------------------------------#
 
-brew 'mas'
+# brew 'mas'
 
 brew 'bash'
 brew 'bash-completion'
@@ -83,8 +83,8 @@ cask '1password-cli'
 # Mac App Store
 #----------------------------------------------------------------------------------------#
 
-mas 'Sip', id: 507257563
-mas 'Slack', id: 803453959
-mas 'The Unarchiver', id: 425424353
-mas 'Daisy Disk', id: 411643860
-mas 'iA Writer', id: 775737590
+# mas 'Sip', id: 507257563
+# mas 'Slack', id: 803453959
+# mas 'The Unarchiver', id: 425424353
+# mas 'Daisy Disk', id: 411643860
+# mas 'iA Writer', id: 775737590

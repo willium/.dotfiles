@@ -167,7 +167,7 @@ mas upgrade
 
 brew missing
 
-brew cask cleanup
+# brew cask cleanup
 # brew cleanup --force
 rm -rf /Library/Caches/Homebrew/*
 

@@ -60,6 +60,10 @@ cask 'skim'
 cask 'spotify'
 cask 'vlc'
 
+cask 'superhuman'
+cask 'figma'
+cask 'linear-linear'
+
 cask 'xquartz'
 
 cask 'iterm2'
@@ -68,8 +72,10 @@ cask 'visual-studio-code'
 
 # cask 'dropbox'
 cask 'google-drive'
+cask 'messenger'
 
 cask '1password'
+cask '1password-cli'
 
 # cask 'adobe-creative-cloud' # installer dl
 

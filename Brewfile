@@ -71,7 +71,7 @@ cask 'iterm2'
 cask 'visual-studio-code'
 
 # cask 'dropbox'
-cask 'google-drive'
+# cask 'google-drive'
 cask 'messenger'
 
 cask '1password'

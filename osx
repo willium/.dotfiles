@@ -15,7 +15,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # Set computer name (as done via System Preferences → Sharing)
 sudo scutil --set ComputerName "will"
 sudo scutil --set HostName "local"
-sudo scutil --set LocalHostName "localhost"
+sudo scutil --set LocalHostName "will"
 
 # Remove all dock icons
 defaults write com.apple.dock persistent-apps -array

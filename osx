@@ -11,6 +11,9 @@ sudo scutil --set ComputerName "will"
 sudo scutil --set HostName "local"
 sudo scutil --set LocalHostName "localhost"
 
+# Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 #----------------------------------------------------------------------------------------#
 # Homebrew
 #----------------------------------------------------------------------------------------#

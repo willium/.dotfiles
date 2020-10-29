@@ -19,7 +19,6 @@ sudo scutil --set LocalHostName "will"
 
 # Remove all dock icons
 defaults write com.apple.dock persistent-apps -array
-killall Dock
 
 # Automatically hide and show Dock.
 sudo defaults write /Library/Preferences/com.apple.dock autohide -bool YES
@@ -146,9 +145,8 @@ defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
 defaults write com.apple.Safari InstallExtensionUpdatesAutomatically -bool true
 
 for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
-   "Dock" "Finder" "Google Chrome" "Google Chrome Canary" "Mail" "Messages" \
-   "Opera" "Photos" "Safari" "SizeUp" "Spectacle" "SystemUIServer" "Terminal" \
-   "Transmission" "Tweetbot" "Twitter" "iCal"; do
+   "Dock" "Finder" \
+   "Photos" "Safari" "SystemUIServer"; do
    killall "${app}" &> /dev/null
 done
 

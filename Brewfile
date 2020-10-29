@@ -23,7 +23,7 @@ tap 'homebrew/dupes'
 brew 'grep'
 brew 'openssh'
 brew 'screen'
-brew 'vim', args: ['with-override-system-vi']
+# brew 'vim', args: ['with-override-system-vi']
 brew 'emacs'
 brew 'tmux'
 brew 'z'
@@ -49,7 +49,7 @@ brew 'rcm'
 cask 'google-chrome'
 cask 'firefox'
 
-cask 'java' unless system '/usr/libexec/java_home --failfast'
+# cask 'java' unless system '/usr/libexec/java_home --failfast'
 # cask 'eclipse-java'
 
 cask 'postgres'

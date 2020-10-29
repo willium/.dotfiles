@@ -19,6 +19,15 @@ export PATH=$PATH:$GOPATH/bin;
 # Ruby
 export PATH="$HOME/.rbenv/bin:$PATH";
 
+export RBENV_ROOT="$HOME/.rbenv"
+
+if [ -d $RBENV_ROOT ]; then
+  export PATH="$RBENV_ROOT/bin:$PATH"
+  eval "$(rbenv init -)"
+fi
+
+export PATH="/usr/local/opt/gettext/bin:$PATH"
+
 # Latex
 export PATH="/Library/TeX/Distributions/Programs/texbin:$PATH";
 export PATH="/usr/local/opt/gettext/bin:$PATH"

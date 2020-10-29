@@ -54,14 +54,3 @@ eval "$(thefuck --alias)"
 # Ruby
 eval "$(rbenv init -)"
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
-
-
-export RBENV_ROOT="$HOME/.rbenv"
-
-if [ -d $RBENV_ROOT ]; then
-  export PATH="$RBENV_ROOT/bin:$PATH"
-  eval "$(rbenv init -)"
-fi
-
-export PATH="/usr/local/opt/gettext/bin:$PATH"
-

@@ -34,7 +34,7 @@ brew 'postgresql'
 brew 'sqlite'
 brew 'youtube-dl'
 brew 'python3'
-brew 'yarn' # also install Node.js
+brew 'node'
 brew 'go'
 brew 'rbenv'
 # brew 'ruby-build'
